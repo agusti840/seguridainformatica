@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hackeado?</title>
+  <style>
+    body {
+      background-color: #f00;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hackeado!</h1>
+  <p>Eres vulnerable...</p>
+  <script>
+    setTimeout(function() {
+      document.body.innerHTML = '<h1>¡Sólo era una broma!</h1><p>...pero cuidado con lo que escaneas.</p>';
+    }, 5000); // 5 segundos
+  </script>
+</body>
+</html>
